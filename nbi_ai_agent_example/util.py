@@ -27,4 +27,4 @@ PARTICIPANT_ICON_SVG = """<?xml version="1.0" encoding="iso-8859-1"?>
 </svg>
 """
 
-PARTICIPANT_ICON_URL = f"data:image/svg+xml;base64,{base64.b64encode(PARTICIPANT_ICON_SVG.encode("utf-8")).decode('utf-8')}"
+PARTICIPANT_ICON_URL = f"data:image/svg+xml;base64,{base64.b64encode(PARTICIPANT_ICON_SVG.encode('utf-8')).decode('utf-8')}"
